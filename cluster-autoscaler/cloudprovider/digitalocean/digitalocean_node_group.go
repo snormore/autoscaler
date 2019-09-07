@@ -28,11 +28,6 @@ import (
 )
 
 const (
-	// These are internal DO values, not publicly available and configurable at
-	// this point.
-	minNodePoolSize = 1
-	maxNodePoolSize = 200
-
 	doksLabelNamespace = "doks.digitalocean.com"
 	nodeIDLabel        = doksLabelNamespace + "/node-id"
 )
